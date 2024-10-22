@@ -53,3 +53,72 @@ header .boton:hover {
     text-align: left;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+/* Estilos para el contenedor */
+.contenedor {
+    display: flex;
+    justify-content: space-between; /* Espacia las columnas */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+/* Estilos para las columnas */
+.columna {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1; /* Hace que las columnas ocupen el mismo espacio */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los encabezados */
+.columna h2 {
+    color: #333;
+}
+
+/* Estilos para los párrafos */
+.columna p {
+    color: #666;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para el contenido del footer */
+.footer-contenido {
+    display: flex;
+    justify-content: space-around; /* Espacia las secciones del footer */
+    flex-wrap: wrap; /* Permite que las secciones se ajusten en pantallas pequeñas */
+    padding: 20px;
+}
+
+/* Estilos para cada sección del footer */
+.footer-seccion {
+    flex: 1;
+    margin: 10px;
+}
+
+/* Estilos para los encabezados de las secciones del footer */
+.footer-seccion h3 {
+    margin-top: 0;
+}
+
+/* Estilos para los enlaces del footer */
+.footer-seccion a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-seccion a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la sección de copyright */
+.footer-copyright {
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+}
