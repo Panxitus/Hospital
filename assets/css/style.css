@@ -1,10 +1,11 @@
-
+/* aspectos generales del cuerpo */
 body {
     display: flexbox;
     justify-content: end;/* Alinea el nav a la derecha */
     margin: 0;
     height: 100vh;
 }
+/* Inicio de estilo header */
 header{
     display: flex;
     align-items: center; /* Alinea verticalmente los elementos */
@@ -38,7 +39,6 @@ header button{
 header .boton:hover {
     background-color: #0056b3;
 }
-
 #bannerprincipal img{
     width: 100%;
     height: auto;
@@ -79,7 +79,93 @@ header .boton:hover {
     color: #666;
 }
 
+/* Inicio de contenidos */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    /* background-color: black; */
+   }
+   .columna{
+    padding-right: 15px;
+    padding-left: 15px;
+    /* background-color: red; */
+}
+.columna-25{
+    width: 25%;
+}
 
+.columna-33{
+    width: 33.33%;
+}
+
+.columna-50{
+    width: 50%;
+}
+
+.columna-41{
+    width: 41.66%;
+}
+
+.empujar-50{
+    margin-left: 50%;
+}
+
+.empujar-58{
+    margin-left: 58.33%;
+}
+
+.empujar-66{
+    margin-left: 66.66%;
+}
+
+.empujar-0{
+    margin-left: 0%;
+}
+
+#servicios .bloque-servicio{
+    border: 1px solid gray;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio img{
+    width: 100%;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio .cuadrado-perfecto{
+    padding-bottom: 56.25%;
+}
+    
+
+#servicios .bloque-servicio .bloque-contenido-servicio{
+    padding: 15px;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio h3{
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.boton.boton-blanco{
+    background-color: white;
+    color: red;
+    font-size: 16 px;
+    font-weight: bold;
+    border: 1px solid;
+}
+.boton.boton-negro{
+    background-color: black;
+    color: white;
+    font-size: 16 px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+
+
+
+/* Inicio de footer */
 footer {
     background-color: #333;
     color: white;
@@ -122,3 +208,4 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+
