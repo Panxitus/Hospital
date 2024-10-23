@@ -162,8 +162,50 @@ header .boton:hover {
     text-align: center;
 }
 
+/* Segunda section Testimonios pacientes*/
+.seccion-columnas {
+    /* permite colocar las columnas una al lado de la */
+    margin-top: 30px
+}
+.seccion-columnas h2{
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.contenedor-columnas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 50%;
+    
+    
+    
+}
 
+.testimonio{
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    flex: 1 1 calc(16.66% - 20px);
+}
 
+.testimonio img{
+    padding: 5px;
+    border-radius: 15px;
+    width: 10%;
+    height: auto;
+}
 
 /* Inicio de footer */
 footer {
