@@ -4,102 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital-inicio</title>
-    <!-- interacción con hoja de estilo css -->
+<!-- interacción con hoja de estilo css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <img src="assets/img/LogoHospital.png" alt="Logo de la Empresa"> 
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#equipo">Equipo Medico</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-        <button type="button" class="boton">Reservar Citas </button>
+        <div class="logo">
+            <img src="assets/img/LogoHospital.png" alt="Logo de la Empresa"> 
+        </div>
+        <div class="nav">
+            <nav class="opciones">
+                <a href="#inicio">Inicio</a>
+                <a href="equipo.html">Equipo Medico</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <button type="button" class="boton">Reservar Citas </button>
+        </div>
     </header>
-        <section id="bannerprincipal">
+
+<!-- Start de Banner  -->
+    <section class="banner">
+        <div class="bannerprincipal_contendor">
             <img src="assets/img/banner.avif">
             <h1>HOSPITAL SAN CLEMENTE</h1>
-            <div class="contenedor">
-                <div class="columna">
-                    <h2>Misión</h2>
-                    <p>Somos un establecimiento de salud, perteneciente a la red de salud del SSMC, centrado en las personas, con altos estándares de calidad y seguridad en los procesos asistenciales y administrativos, para lograr una atención de excelencia, oportuna, digna, confiable, inclusiva y cercana a las personas.</p>
-                </div>
-                <div class="columna">
-                    <h2>Visión</h2>
-                    <p>Ser una institución de salud líder dentro del sistema público, referente de una atención segura, de calidad, oportuna, eficiente y centrada en las personas.</p>
-                </div>
+        </div>
+        <div class="bannerinfo">
+            <div class="__mision">
+                <h2>Misión</h2>
+                <p>Somos un establecimiento de salud, perteneciente a la red de salud del SSMC, centrado en las personas, con altos estándares de calidad y seguridad </p>
             </div>
-        
-            <section id="equipo" class="seccion"> 
-                <div class="container">
-                    <div class="row">
-                        <div class="columna columna-33 .columna-mobile-100">
-                            <div class="bloque-servicio">
-                                <div class="bloque-img-servicio cuadrado-perfecto">
-                                    <img src="assets/img/consultas.jpg">
-                                </div>
-                                <div class="bloque-contenido-servicio ">
-                                    <h3>Consultas</h3>
-                                    <p>
-                                    Nuestros especialistas te ayudarán a resolver tus dudas de salud
-                                    </p>
-                                    <a href="#" class="boton boton-blanco">Ver más</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="columna columna-33 .columna-mobile-100">
-                            <div class="bloque-servicio">
-                                <div class="bloque-img-servicio cuadrado-perfecto">
-                                    <img src="assets/img/especialidades.jpeg">
-                                </div>
-                                <div class="bloque-contenido-servicio">
-                                    <h3>Especialidades</h3>
-                                    <p>
-                                    Podrás buscar todas las especialidades médicas que tenemos en nuestro hospital
-                                    </p>
-                                    <a href="#" class="boton boton-blanco">Ver más</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="columna columna-33 .columna-mobile-100">
-                            <div class="bloque-servicio">
-                                <div class="bloque-img-servicio cuadrado-perfecto" cu>
-                                    <img src="assets/img/urgencia.avif">
-                                </div>
-                                <div class="bloque-contenido-servicio">
-                                    <h3>Urgencias</h3>
-                                    <p>
-                                    Atención 24/7 todas las especialides y los mejores profesionales
-                                    </p>
-                                    <a href="#" class="boton boton-blanco">Ver más</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div class="__vision">
+                <h2>Visión</h2>
+                <p>Ser una institución de salud líder dentro del sistema público, referente de una atención segura, de calidad, oportuna, eficiente y centrada en las personas.</p>
+            </div>       
+        </div>
+    </section>
 
-            <section class="seccion-columnas">
-                <h2>Testimonios</h2>
-                <div class="contenedor-columnas">
-                    <div class="testimonio">
-                        <img src="assets/img/paciente1.webp">
-                        <p>Gracias a los especialistas logre salir adelante</p>
-                    </div>
+<!-- End Banner -->
+
+
+<!-- Inicio  section de servicio del hospital -->
+    <section class="servicios">
+        <div class="servicioscolumn">
+            <img src="assets/img/especialidades.jpeg" alt="especialidades">
+            <h2>Especialidades Médicas</h2>
+            <p>Conoce todas nuestras especialidades Medicas</p>
+        </div>
+        <div class="servicioscolumn">
+            <img src="assets/img/consultas.jpg" alt="consultas">
+            <h2>Consultas Médicas</h2>
+            <p>Agenda en nuestras consultas Presencial o Telemedicina</p>
+        </div>
+        <div class="servicioscolumn">
+            <img src="assets/img/urgencia.avif" alt="urgencias">
+            <h2>Urgencias</h2>
+            <p>Conoce nuestro servicio de Urgencias</p>
+        </div>
+    </section>
+<!-- Finalización section de servicios de hospital -->
+
+<!-- Inicio sección de testimonios -->
+    <section class="colums">
+        <h2>Testimonios</h2>
+        <div class="columns__contenedor">
+            <div class="colums__testimonio">
+                <img src="assets/img/paciente1.webp" alt="paciente1">
+                <p>Gracias a los especialistas logre salir adelante</p>
+            </div>
                     
-                    <div class="testimonio">
-                        <img src="assets/img/paciente2.jpg">
-                        <p>Gracias a la oportuna atención logramos salir adelante</p>
-                    </div>
-                    <div class="testimonio">
-                        <img src="assets/img/paciente3.jpg">
-                        <p>Confío en los profesionales que componen esta institución</p>
-                    </div>
-                </div>
-            
-            </section>
+            <div class="colums__testimonio">
+                <img src="assets/img/paciente2.jpg" alt="paciente2">
+                <p>Gracias a la oportuna atención logramos salir adelante</p>
+            </div>
+            <div class="colums__testimonio">
+                <img src="assets/img/paciente3.jpg" alt="paciente3">
+                <p>Confío en los profesionales que componen esta institución</p>
+            </div>
+        </div>
+    </section>
+<!-- End section testimonios-->
 
+<!-- inicio de footer -->
     <footer>
         <div class="footer-contenido">
             <div class="footer-seccion">
@@ -122,5 +107,6 @@
             <p>&copy; 2024 FG webdesign. Todos los derechos reservados.</p>
         </div>
     </footer>
+<!-- Fin de footer -->
 </body>
 </html>
